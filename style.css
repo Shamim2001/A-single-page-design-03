@@ -1,0 +1,83 @@
+
+#hoina{
+    width: 100%;
+    position: fixed;
+    
+}
+#hoina a{
+    color: #fff;
+}
+#banner{
+    padding: 200px;
+    background-image: url(img/banner.jpg);
+    color: #fff;
+}
+.icon image{
+    font-size: 50px;
+}
+.about-image{
+    width: 150px;
+    height: 150px;
+    border: 2px solid rgb(16, 238, 116);
+    border-radius: 100px;
+}
+.for-button button{
+    background: rgb(16, 238, 116);
+    border-radius: 50px;
+    border: none;
+    padding: 5px 50px;
+}
+#content{
+    background: rgb(248, 245, 245);
+    padding: 20px;
+}
+.imgbar img{
+    width: 300px;
+    height: 
+}
+.text-button button{
+    background: rgb(16, 238, 116);
+    border-radius: 50px;
+    border: none;
+    padding: 5px 50px;
+}
+.textbar{
+    padding-top: 30px;
+    
+}
+.textbar p {
+    padding: 40px;
+}
+
+#content-2 img{
+    width: 300px;
+    /* height: 200px; */
+}
+#footer-area{
+   padding: 100px;
+    background: rgb(243, 243, 243);
+}
+#footer-area img{
+    width: 20px;
+    height: 20px;
+ 
+}
+#footer-area p{
+    padding: 0 20px;
+    color: rgba(0, 0, 0, 0.274);
+}
+.footer-link{
+    list-style: none;
+    justify-content: space-between;
+    
+}
+.footer-link a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.274);
+}
+
+
+
+
+
+
