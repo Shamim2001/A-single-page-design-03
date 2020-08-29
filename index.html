@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Alecto.com</title>
     <!-- Font awesome link -->
     <script src="https://use.fontawesome.com/452826394c.js"></script>
     <!-- bootstrap css link -->
@@ -17,9 +17,14 @@
 <body>
   <header>
 
-        <nav id="hoina" class="navbar navbar-expand-sm">
+        <nav id="header" class="navbar navbar-expand-sm  bg-secondary">
           <div class="container">
           <a class="navbar-brand" href="#"><h1>Alecto.</h1></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto text-center">
               <li class="nav-item active">
                 <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
@@ -46,19 +51,19 @@
       </div>
     
     <div id="banner">
-      <div class="banner-heading text-center">
+      <div class="banner-heading text-center text-center">
         <h1>Alecto is simple psd templete</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        <button type="button">Learn more</button>
       </div>
-      <div id="banner-btn" class='text-center pt-3'>
-        <form action="">
-          <button type="button" class="btn btn-primary">Learn more</button>
-        </form>
-      </div>
+        
+         
     </div>
   </header> <!-- header end -->
   <!-- secdtion start -->
   <div class='mt-3'></div>
+
+  <!-- section start -->
   <section>
     <div class="container">
       <div class="row">
@@ -70,30 +75,34 @@
         </div>
         <div class="col-12 mt-5">
           <div class="row text-center">
-            <div class="col-3">
-              <img class='about-image' src="img/about_2.png" alt="logo">
-            <h3>Lorem ipsum</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, voluptate.</p>
+            <div class="col-md-3">
+              <!-- font awesome icons add -->
+
+                <a href="#"><i class="fa fa-rocket"></i></a>
+                <h3>Lorem ipsum</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, voluptate.</p>
             </div>
-            <!-- radius items -->
-            <div class="col-3">
-              <img class='about-image' src="img/about_2.png" alt="logo">
-            <h3>Lorem ipsum</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, voluptate.</p>
+                <!-- radius items -->
+                <div class="col-md-3">
+                  <a href="#"><i class="fa fa-rocket"></i></a>
+                <h3>Lorem ipsum</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, voluptate.</p>
+                </div>
+                <!-- radius items -->
+                <div class="col-md-3">
+                  <a href="#"><i class="fa fa-rocket"></i></a>
+                <h3>Lorem ipsum</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, voluptate.</p>
+                </div>
+                
+                <div class="col-md-3">
+                  <a href="#"><i class="fa fa-rocket"></i></a>
+                <h3>Lorem ipsum</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, voluptate.</p>
+                </div>
+              </div>
             </div>
-            <!-- radius items -->
-            <div class="col-3">
-              <img class='about-image' src="img/about_2.png" alt="logo">
-            <h3>Lorem ipsum</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, voluptate.</p>
-            </div>
-            <!-- end items -->
-            <div class="col-3">
-              <img class='about-image' src="img/about_2.png" alt="logo">
-            <h3>Lorem ipsum</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, voluptate.</p>
-            </div>
-            <!-- end items -->
+             <!-- end items -->
             
              <div class="col-12 text-center mt-5 for-button">
               <button  type="button">Learn more</button>
@@ -108,17 +117,19 @@
     <div id="content" class='my-5' >
       <div class="container">
         <div class="row">
-          <div class="col-6">
+          <div class="col-md-6">
             
               <img class="img-fluid" src="img/about_bg.png" alt="image">   
           </div>
-          <div class="col-6 d-flex">
-            <div class="textbar">
-              <h2>Lorem Ipsum</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero blanditiis ex accusamus! Ad tempore reiciendis omnis at eos sequi fugiat incidunt voluptatum recusandae sapiente quo placeat, labore aperiam culpa, in excepturi natus minus quaerat dicta. Veritatis dolorem voluptatum ad, tempora quaerat dolore aut et debitis natus molestiae cum itaque ratione.</p>
+          <div class="col-md-6 d-flex">
+            <div class="textbar d-flex flex-column justify-content-center ">
+              <div>
+                <h2 class="pb-4">Lorem Ipsum</h2>
+              <p class="pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero blanditiis ex accusamus! Ad tempore reiciendis omnis at eos sequi fugiat incidunt voluptatum recusandae sapiente quo placeat, labore aperiam culpa, in excepturi natus minus quaerat dicta. Veritatis dolorem voluptatum ad, tempora quaerat dolore aut et debitis natus molestiae cum itaque ratione.</p>
               <div class="col-12  mt-2 text-button">
                 <button  type="button">Learn more</button>
                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -127,19 +138,45 @@
     <div id="content-2">
       <div class="container">
         <div class="row">
-          <div class="col-6 d-flex">
-            <div class="textbar">
-              <h2>Lorem Ipsum</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero blanditiis ex accusamus! Ad tempore reiciendis omnis at eos sequi fugiat incidunt voluptatum recusandae sapiente quo placeat, labore aperiam culpa, in excepturi natus minus quaerat dicta. Veritatis dolorem voluptatum ad, tempora quaerat dolore aut et debitis natus molestiae cum itaque ratione.</p>
-              <div class="col-12  mt-2 text-button">
+          <div class="col-md-6 d-flex">
+            <div class="textbar d-flex flex-column justify-content-center">
+             <div>
+              <h2 class="pb-4">Lorem Ipsum</h2>
+              <p class="pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero blanditiis ex accusamus! Ad tempore reiciendis omnis at eos sequi fugiat incidunt voluptatum recusandae sapiente quo placeat, labore aperiam culpa, in excepturi natus minus quaerat dicta. Veritatis dolorem voluptatum ad, tempora quaerat dolore aut et debitis natus molestiae cum itaque ratione.</p>
                 <button  type="button">Learn more</button>
-               </div>
+             </div>
             </div>
           </div>
-          <div class="col-6">
+          <div class="col-md-6">
             
             <img  src="img/about_2.png" alt="image">   
         </div>
+        </div>
+      </div>
+    </div>
+    <div id="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center my-5">
+            <h1>Ours Services</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, tempora?</p>
+          </div>
+          <div class="col-6">
+            <h4 class=><i class="fa fa-eyedropper"></i>Portfolio</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id dolores dolore molestias. Cupiditate, nisi quidem. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, illum.</p>
+          </div>
+          <div class="col-6">
+            <h4><i class="fa fa-eyedropper"></i>Design</h4>
+            <p class="text-justify">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id dolores dolore molestias. Cupiditate, nisi quidem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, exercitationem.</p>
+          </div>
+          <div class="col-6">
+            <h4><i class="fa fa-eyedropper"></i>Branding</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id dolores dolore molestias. Cupiditate, nisi . Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, atque!</p>
+          </div>
+          <div class="col-6">
+            <h4><i class="fa fa-rocket"></i>Development</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id dolores dolore molestias. Cupiditate, nisi quidem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, id!</p>
+          </div>
         </div>
       </div>
     </div>
@@ -156,43 +193,127 @@
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
 
           </div>
-          <div class="col-3 p-0">
-            <img class='img-fluid' src="img/img-1.jpg" alt="">
+          <div class="col-md-3 p-0 teem">
+            <img class='img-fluid' src="img/img3.jpg" alt="">
           </div>
-          <div class="col-3 p-0">
-            <img class='img-fluid' src="img/img-1.jpg" alt="">
+          <div class="col-md-3 p-0">
+            <img class='img-fluid' src="img/img3.jpg" alt="">
           </div>
-          <div class="col-3 p-0">
-            <img class='img-fluid' src="img/img-1.jpg" alt="">
+          <div class="col-md-3 p-0">
+            <img class='img-fluid' src="img/img3.jpg" alt="">
           </div>
-          <div class="col-3 p-0">
-            <img class='img-fluid' src="img/img-1.jpg" alt="">
+          <div class="col-md-3 p-0">
+            <img class='img-fluid' src="img/img3.jpg" alt="">
           </div>
-          <div class="col-3 p-0">
-            <img class='img-fluid' src="img/img-1.jpg" alt="">
+          <div class="col-md-3 p-0">
+            <img class='img-fluid' src="img/img3.jpg" alt="">
           </div>
-          <div class="col-3 p-0">
-            <img class='img-fluid' src="img/img-1.jpg" alt="">
+          <div class="col-md-3 p-0">
+            <img class='img-fluid' src="img/img3.jpg" alt="">
           </div>
-          <div class="col-3 p-0">
-            <img class='img-fluid' src="img/img-1.jpg" alt="">
+          <div class="col-md-3 p-0">
+            <img class='img-fluid' src="img/img3.jpg" alt="">
           </div>
-          <div class="col-3 p-0">
-            <img class='img-fluid' src="img/img-1.jpg" alt="">
+          <div class="col-md-3 p-0">
+            <img class='img-fluid' src="img/img3.jpg" alt="">
           </div>
         </div>
       </div>
     </div>
+    <!-- wrapper start -->
+    <div class="wrapper">
+      <div class="container">
+        <div class="row ">
+          <div class="col-12 text-center ">
+            <h4>Pricing</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, nulla.</p>
+          </div>
+          <div class="col-3 ">
+            <div class="card">
+              <div class="card-body wrap">
+                <h2 class="card-title ">$39</h2>
+                <p class="pb-4">Lorem ipsum dolor sit amet.</p>
+                <hr>
+                <p class="card-text text-justify p-3">With supporting text below as a natural lead-in to additional content. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora culpa maiores corporis. Lorem ipsum dolor sit amet.</p>
+                <a href="#" class="btn btn-success d-block" >PURCHASE</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 ">
+            <div class="card">
+              <div class="card-body wrap">
+                <h2 class="card-title ">$39</h2>
+                <p class="pb-4">Lorem ipsum dolor sit amet.</p>
+                <hr>
+                <p class="card-text text-justify p-3">With supporting text below as a natural lead-in to additional content. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora culpa maiores corporis. Lorem ipsum dolor sit amet.</p>
+                <a href="#" class="btn btn-success d-block" >PURCHASE</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 ">
+            <div class="card">
+              <div class="card-body wrap">
+                <h2 class="card-title ">$39</h2>
+                <p class="pb-4">Lorem ipsum dolor sit amet.</p>
+                <hr>
+                <p class="card-text text-justify p-3">With supporting text below as a natural lead-in to additional content. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora culpa maiores corporis. Lorem ipsum dolor sit amet.</p>
+                <a href="#" class="btn btn-success d-block" >PURCHASE</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card">
+              <div class="card-body wrap">
+                <h2 class="card-title ">$39</h2>
+                <p class="pb-4">Lorem ipsum dolor sit amet.</p>
+                <hr>
+                <p class="card-text text-justify p-3">With supporting text below as a natural lead-in to additional content. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora culpa maiores corporis. Lorem ipsum dolor sit amet.</p>
+                <a href="#" class="btn btn-success d-block" >PURCHASE</a>
+              </div>
+            </div>
+          </div>  <!-- card close -->
+        </div>
+      </div>
+    </div>  <!-- wrapper end -->
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="text-map d-flex flex-column justify-content-center">
+            <div>
+              <h2 class="pb-4">Lorem Ipsum</h2>
+            <p class="pb-4"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero blanditiis ex accusamus! Ad tempore reiciendis omnis at eos sequi fugiat incidunt voluptatum recusandae sapiente quo placeat, labore aperiam culpa, in excepturi natus minus quaerat dicta. Veritatis dolorem voluptatum ad, tempora quaerat dolore aut et debitis natus molestiae cum itaque ratione.</p>
+           <button>learn More</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+            
+          <img class="img-fluid" src="img/map.png" alt="image">   
+      </div>
+      </div>
+    </div>
+   <div id="main">
+     <div class="comtainer">
+       <div class="row">
+         <div class="col-12">
+          <div class="main-text">
+            <h1>Try Our PSD Template On symu.co</h1>
+            <button type="button">symo.co</button>
+          </div>
+         </div>
+       </div>
+     </div>
+   </div>
   </main>
   <footer>
-    <div id="footer-area" class="my-5">
+    <div id="footer-area" class="py-5">
       <div class="container">
         <div class="row">
-          <div class="col-6 d-flex ">
-            <img src="img/banner.jpg" alt="logo">
+          <div class="col-md-6 d-flex ">
+            <img src="img/icon_logo.png" alt="logo">
             <p>All Rights Reserved by Shamim</p>
           </div>
-          <div class="col-6">
+          <div class="col-md-6">
             <ul class="d-flex footer-link">
               <li><a href="#">Home</a></li>
               <li><a href="#">About</a></li>

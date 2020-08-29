@@ -1,32 +1,52 @@
 
-#hoina{
+#header{
     width: 100%;
     position: fixed;
+    z-index: 1000;
     
 }
-#hoina a{
+#header a{
     color: #fff;
+}
+#header li:hover{
+    background: rgb(91, 212, 61);
+    padding: 5px;
 }
 #banner{
-    padding: 200px;
+    padding: 200px 0;
     background-image: url(img/banner.jpg);
     color: #fff;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size:cover;
+
 }
+section i{
+    background: rgb(241, 233, 233);
+    padding: 20px;
+    border-radius: 99px;
+}
+section a{
+    font-size: 30px;
+    
+}
+section i:hover{
+    background: rgba(91, 212, 61, 0.822);
+    padding: 25px;
+}
+
 .icon image{
     font-size: 50px;
+    /* padding: 10; */
+    
 }
-.about-image{
+/* .about-image{
     width: 150px;
     height: 150px;
     border: 2px solid rgb(16, 238, 116);
     border-radius: 100px;
-}
-.for-button button{
-    background: rgb(16, 238, 116);
-    border-radius: 50px;
-    border: none;
-    padding: 5px 50px;
-}
+} */
+
 #content{
     background: rgb(248, 245, 245);
     padding: 20px;
@@ -35,24 +55,41 @@
     width: 300px;
     height: 
 }
-.text-button button{
+ button{
     background: rgb(16, 238, 116);
     border-radius: 50px;
     border: none;
-    padding: 5px 50px;
+    padding: 5px 30px 10px;
+    transition: .4s all;
 }
-.textbar{
-    padding-top: 30px;
-    
+button:focus{
+    outline: none;
 }
-.textbar p {
-    padding: 40px;
+button:hover{
+    background:rgb(16, 161, 81);
 }
 
 #content-2 img{
     width: 300px;
     /* height: 200px; */
 }
+#services{
+    background: rgb(250, 248, 248);
+}
+#services i{
+    color: rgb(20, 216, 108);
+    background:#fff;
+    
+}
+.wrapper h2{
+    color: rgb(20, 216, 108);
+}
+.wrapper .wrap:hover{
+    padding: 16px;
+    background: rgb(252, 242, 250);
+}
+
+
 #footer-area{
    padding: 100px;
     background: rgb(243, 243, 243);
@@ -60,24 +97,53 @@
 #footer-area img{
     width: 20px;
     height: 20px;
+    display: block;
+    object-fit: contain;
+    margin-right: 10px;
  
 }
-#footer-area p{
-    padding: 0 20px;
+#footer-area {
+    /* margin-left: 20px; */
     color: rgba(0, 0, 0, 0.274);
 }
 .footer-link{
     list-style: none;
-    justify-content: space-between;
+    justify-content: flex-end;
     
 }
 .footer-link a{
     text-decoration: none;
+    margin-left: 10px;
     color: rgba(0, 0, 0, 0.274);
 }
+#main{
+    background-image: url(img/testimonial-bg.jpg);
+    color: #fff;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    
 
+}
 
+.main-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
 
+}
 
+.main-text h1{
+    margin-bottom: 70px;
+}
+.text-map {
+    padding: 20px 0;
 
+}
+.footer-link li:hover{
+    background: rgb(91, 212, 61);
+    padding: 5px;
+}
 
